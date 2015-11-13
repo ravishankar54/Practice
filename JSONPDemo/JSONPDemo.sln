@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONPDemo", "JSONPDemo\JSONPDemo.csproj", "{497FD0C8-9DF5-4B2C-B524-F62B9AA416D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONPClient", "JSONPClient\JSONPClient.csproj", "{95EE91BA-54FA-4101-B3B8-3D3DDDC39E1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{497FD0C8-9DF5-4B2C-B524-F62B9AA416D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{497FD0C8-9DF5-4B2C-B524-F62B9AA416D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{497FD0C8-9DF5-4B2C-B524-F62B9AA416D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{497FD0C8-9DF5-4B2C-B524-F62B9AA416D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95EE91BA-54FA-4101-B3B8-3D3DDDC39E1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95EE91BA-54FA-4101-B3B8-3D3DDDC39E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95EE91BA-54FA-4101-B3B8-3D3DDDC39E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95EE91BA-54FA-4101-B3B8-3D3DDDC39E1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

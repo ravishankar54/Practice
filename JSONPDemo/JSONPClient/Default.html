@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <h1 id="msg"></h1>
+    <script src="http://localhost:50805/api/jsonp?id=36&callback=myCallBack"></script>
+    <script>
+        function myCallBack(obj) {
+            var el = document.querySelector('#msg');
+            el.innerHTML = obj.data;
+        }
+    </script>
+</body>
+</html>

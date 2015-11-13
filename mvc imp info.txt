@@ -1,0 +1,48 @@
+ContentNegotiation
+GlobalConfiguration.Configuration
+Formatters
+Json(Default)/XML/FormUrlEncoded/JQueryMvcFormUrlEncoded
+CustomFormatters
+AceptVerbs
+Routing
+ActionParamter/Binding Parameter	
+	Primitive types-assumed to not be in msg body eg:int,string, datetime
+	Complex types-assumed to be in msg body
+	Only a single model allowed from the msg body
+	
+	primitive types in post then used action parameters
+	GET,POST,PUT,DELETE
+	
+	public Customer Post(Customer customer){return customer;}
+	
+	public class Customer {public int Id{get;set;} public string Name {get;set;}}
+
+	@Url.RouteUrl--html helpers for Mvc framework
+	
+	HttpResponseException/DbUpdateConcurrencyException
+	
+PM>	install -package Microsoft.AspNet.WebApi.Client
+
+TPL
+Asynchronous processing
+async and await => method with async keyword can use an await
+await can suspend an async method
+await can fee the calling thread
+execution can resume where it left off
+Method should have task are return type recommend and void
+
+AsyncContorller
+Async and await and task
+
+Controller exception handling
+CancellationToken
+AsyncTimeout
+HandleError
+
+Asp.Net Routing maps URI's and Verbs to Controller
+MapHttpRoute
+HtppControllerHandler
+HttpResponseMessage/HttpRequestMessage
+MediaTypeFormatters (are used bind both input and output)are mapped to content types
+HttpConfiguration/GlobalConfiguration.Configuration
+

@@ -1,0 +1,18 @@
+﻿<div id="body">
+    <ol id="courses"></ol>
+</div>
+@section scripts
+{
+    <script>
+        $.ajax({
+            url: '/api/courses',
+            success: function (courses) {
+                var list = ('#courses');
+                for (var i = 0; i < courses.length; i++) {
+                    var course = courses[i];
+                    list.append('<li>' + course.title + '</li>');
+                }
+            }
+        });
+    </script>
+}

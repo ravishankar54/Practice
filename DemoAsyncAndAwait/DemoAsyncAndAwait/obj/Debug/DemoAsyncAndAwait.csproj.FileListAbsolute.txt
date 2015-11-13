@@ -1,0 +1,6 @@
+C:\Development\Practice\DemoAsyncAndAwait\DemoAsyncAndAwait\bin\Debug\DemoAsyncAndAwait.exe.config
+C:\Development\Practice\DemoAsyncAndAwait\DemoAsyncAndAwait\bin\Debug\DemoAsyncAndAwait.exe
+C:\Development\Practice\DemoAsyncAndAwait\DemoAsyncAndAwait\bin\Debug\DemoAsyncAndAwait.pdb
+C:\Development\Practice\DemoAsyncAndAwait\DemoAsyncAndAwait\obj\Debug\DemoAsyncAndAwait.csprojResolveAssemblyReference.cache
+C:\Development\Practice\DemoAsyncAndAwait\DemoAsyncAndAwait\obj\Debug\DemoAsyncAndAwait.exe
+C:\Development\Practice\DemoAsyncAndAwait\DemoAsyncAndAwait\obj\Debug\DemoAsyncAndAwait.pdb
