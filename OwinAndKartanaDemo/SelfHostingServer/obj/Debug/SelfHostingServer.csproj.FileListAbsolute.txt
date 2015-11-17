@@ -1,0 +1,5 @@
+C:\Development\Practice\OwinAndKartanaDemo\SelfHostingServer\bin\Debug\SelfHostingServer.exe.config
+C:\Development\Practice\OwinAndKartanaDemo\SelfHostingServer\bin\Debug\SelfHostingServer.exe
+C:\Development\Practice\OwinAndKartanaDemo\SelfHostingServer\bin\Debug\SelfHostingServer.pdb
+C:\Development\Practice\OwinAndKartanaDemo\SelfHostingServer\obj\Debug\SelfHostingServer.exe
+C:\Development\Practice\OwinAndKartanaDemo\SelfHostingServer\obj\Debug\SelfHostingServer.pdb

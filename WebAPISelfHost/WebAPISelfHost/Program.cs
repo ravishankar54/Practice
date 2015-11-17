@@ -21,7 +21,25 @@ namespace WebAPISelfHost
             Console.ReadLine();
 
         }
+        private void BackUp2()
+        {
+            var config = new HttpSelfHostConfiguration("http://localhost:58674/");
+            var server = new HttpSelfHostServer(config);
+            var task = server.OpenAsync();
+            task.Wait();
+            Console.WriteLine("Server is up and running");
+            Console.ReadLine();
+        }
 
+        private void BackUp1()
+        {
+            var config = new MyConfig("http://localhost:58674/");
+            var server = new HttpSelfHostServer(config, new MyHttpMessageHandler());
+            var task = server.OpenAsync();
+            task.Wait();
+            Console.WriteLine("Server is up and running");
+            Console.ReadLine();
+        }
         private void Backup()
         {
             var config = new HttpSelfHostConfiguration("http://localhost:58674/");
