@@ -9,6 +9,5 @@ C:\Development\Practice\WebAPISelfHost\WebAPISelfHost\bin\Debug\Newtonsoft.Json.
 C:\Development\Practice\WebAPISelfHost\WebAPISelfHost\bin\Debug\System.Net.Http.Formatting.xml
 C:\Development\Practice\WebAPISelfHost\WebAPISelfHost\bin\Debug\System.Web.Http.xml
 C:\Development\Practice\WebAPISelfHost\WebAPISelfHost\bin\Debug\System.Web.Http.SelfHost.xml
-C:\Development\Practice\WebAPISelfHost\WebAPISelfHost\obj\Debug\WebAPISelfHost.csprojResolveAssemblyReference.cache
 C:\Development\Practice\WebAPISelfHost\WebAPISelfHost\obj\Debug\WebAPISelfHost.exe
 C:\Development\Practice\WebAPISelfHost\WebAPISelfHost\obj\Debug\WebAPISelfHost.pdb

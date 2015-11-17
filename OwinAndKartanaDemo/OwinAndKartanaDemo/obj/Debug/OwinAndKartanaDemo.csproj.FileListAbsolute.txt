@@ -38,3 +38,10 @@ C:\Development\Practice\OwinAndKartanaDemo\OwinAndKartanaDemo\bin\Newtonsoft.Jso
 C:\Development\Practice\OwinAndKartanaDemo\OwinAndKartanaDemo\obj\Debug\OwinAndKartanaDemo.csprojResolveAssemblyReference.cache
 C:\Development\Practice\OwinAndKartanaDemo\OwinAndKartanaDemo\obj\Debug\OwinAndKartanaDenmo.dll
 C:\Development\Practice\OwinAndKartanaDemo\OwinAndKartanaDemo\obj\Debug\OwinAndKartanaDenmo.pdb
+C:\Development\Practice\OwinAndKartanaDemo\OwinAndKartanaDemo\bin\Microsoft.Owin.dll
+C:\Development\Practice\OwinAndKartanaDemo\OwinAndKartanaDemo\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Development\Practice\OwinAndKartanaDemo\OwinAndKartanaDemo\bin\Microsoft.Owin.Security.dll
+C:\Development\Practice\OwinAndKartanaDemo\OwinAndKartanaDemo\bin\Owin.dll
+C:\Development\Practice\OwinAndKartanaDemo\OwinAndKartanaDemo\bin\Microsoft.Owin.xml
+C:\Development\Practice\OwinAndKartanaDemo\OwinAndKartanaDemo\bin\Microsoft.Owin.Security.xml
+C:\Development\Practice\OwinAndKartanaDemo\OwinAndKartanaDemo\bin\Microsoft.Owin.Security.Cookies.xml
