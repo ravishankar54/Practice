@@ -6,6 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using Microsoft.Owin;
+
+[assembly: OwinStartup(typeof(SelfHostingServer.Startup))]
 namespace SelfHostingServer
 {
     using System.Web.Http;
@@ -37,12 +40,12 @@ namespace SelfHostingServer
             //    await next();
             //});
 
-            app.Use(async (environment, next) =>
-            {
-                Console.WriteLine("Requesting : {0}", environment.Request.Path);
-                await next();
-                Console.WriteLine("Response : {0}", environment.Response.StatusCode);
-            });
+            //app.Use(async (environment, next) =>
+            //{
+            //    Console.WriteLine("Requesting : {0}", environment.Request.Path);
+            //    await next();
+            //    Console.WriteLine("Response : {0}", environment.Response.StatusCode);
+            //});
 
             ConfigureWebApi(app);
 

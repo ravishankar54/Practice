@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 using Owin;
 using Microsoft.Owin;
 
-[assembly: OwinStartupAttribute(typeof(OwinAndKartanaDemo.Startup))]
+[assembly: OwinStartup(typeof(OwinAndKartanaDemo.Startup))]
 namespace OwinAndKartanaDemo
 {
-  public partial  class Startup
+    public partial class Startup
     {
         public void Configuration(IAppBuilder app)
         {

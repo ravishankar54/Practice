@@ -1,0 +1,34 @@
+﻿http://www.asp.net/aspnet/overview/owin-and-katana/owin-startup-class-detection
+
+OWIN Startup Class Detection
+
+Every OWIN Application has a startup class where you specify components for the application pipeline. 
+There are different ways you can connect your startup class with the runtime, depending on the hosting model you choose 
+(OwinHost, IIS, and IIS-Express). The startup class shown in this tutorial can be used in every hosting application. 
+You connect the startup class with the hosting runtime using one of the these approaches:
+Naming Convention: Katana looks for a class named Startup in namespace matching the assembly name or the global namespace.
+OwinStartup Attribute: This is the approach most developers will take to specify the startup class. 
+The following attribute will set the startup class to the TestStartup class in the StartupDemo namespace.
+[assembly: OwinStartup(typeof(StartupDemo.TestStartup))] 
+The OwinStartup attribute overrides the naming convention. You can also specify a friendly name with this attribute,
+ however, using a friendly name requires you to also use the appSetting element in the configuration file.
+The appSetting element in the Configuration file: The  appSetting element overrides the OwinStartup attribute and 
+naming convention. You can have multiple startup classes (each using an OwinStartup attribute) and 
+configure which startup class will be loaded in a configuration file using markup similar to the following:
+<appSettings>  
+  <add key="owin:appStartup" value="StartupDemo.ProductionStartup" />
+</appSettings>
+ The following key, which explicitly specifies the startup class and assembly can also be used:
+<add key="owin:appStartup" value="StartupDemo.ProductionStartup, StartupDemo" /> 
+The following XML in the configuration file specifies a friendly startup class name of ProductionConfiguration.
+<appSettings>  
+  <add key="owin:appStartup" value="ProductionConfiguration" />       
+</appSettings>
+
+
+The app.Use lambda expression is used to register the specified middleware component to the OWIN  pipeline. 
+In this case we are setting up logging of incoming requests before responding to the incoming request. 
+The next parameter is the delegate ( Func<Task> ) to the next component in the pipeline. 
+The app.Run lambda expression hooks up the pipeline to incoming requests and provides the response mechanism. 
+Note: In the code above we have commented out the OwinStartup attribute and we're relying on the convention of 
+running the class named Startup.
