@@ -1,0 +1,6 @@
+C:\Development\Practice\EqualityAndComparison\EqualityAndComparison\bin\Debug\EqualityAndComparison.exe.config
+C:\Development\Practice\EqualityAndComparison\EqualityAndComparison\bin\Debug\EqualityAndComparison.exe
+C:\Development\Practice\EqualityAndComparison\EqualityAndComparison\bin\Debug\EqualityAndComparison.pdb
+C:\Development\Practice\EqualityAndComparison\EqualityAndComparison\obj\Debug\EqualityAndComparison.csprojResolveAssemblyReference.cache
+C:\Development\Practice\EqualityAndComparison\EqualityAndComparison\obj\Debug\EqualityAndComparison.exe
+C:\Development\Practice\EqualityAndComparison\EqualityAndComparison\obj\Debug\EqualityAndComparison.pdb
