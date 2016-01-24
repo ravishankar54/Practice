@@ -1,0 +1,4 @@
+D:\temp\AuthorizationServer\AuthorizationServer\Constants\bin\Debug\Constants.dll
+D:\temp\AuthorizationServer\AuthorizationServer\Constants\bin\Debug\Constants.pdb
+D:\temp\AuthorizationServer\AuthorizationServer\Constants\obj\Debug\Constants.dll
+D:\temp\AuthorizationServer\AuthorizationServer\Constants\obj\Debug\Constants.pdb

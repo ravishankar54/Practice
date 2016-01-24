@@ -1,0 +1,69 @@
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\AuthorizationServer.dll.config
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\AuthorizationServer.dll
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\AuthorizationServer.pdb
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\Microsoft.Owin.dll
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\Microsoft.Owin.Security.dll
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\Microsoft.Owin.Security.Google.dll
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\Microsoft.Web.Infrastructure.dll
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\Newtonsoft.Json.dll
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\Owin.dll
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\System.Web.Helpers.dll
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\System.Web.Mvc.dll
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\System.Web.Razor.dll
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\System.Web.WebPages.Deployment.dll
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\System.Web.WebPages.dll
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\System.Web.WebPages.Razor.dll
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\Microsoft.Owin.xml
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\Microsoft.Owin.Security.xml
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\Microsoft.Owin.Security.Google.xml
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\Newtonsoft.Json.xml
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\System.Web.Helpers.xml
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\System.Web.Mvc.xml
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\System.Web.Razor.xml
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\System.Web.WebPages.xml
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\System.Web.WebPages.Deployment.xml
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\bin\System.Web.WebPages.Razor.xml
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\obj\Debug\AuthorizationServer.dll
+c:\users\prabht\documents\visual studio 2013\Projects\AuthorizationServer\AuthorizationServer\obj\Debug\AuthorizationServer.pdb
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\obj\Debug\AuthorizationServer.csprojResolveAssemblyReference.cache
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\obj\Debug\AuthorizationServer.dll
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\obj\Debug\AuthorizationServer.pdb
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\AuthorizationServer.dll.config
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\AuthorizationServer.dll
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\AuthorizationServer.pdb
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\Constants.dll
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\Microsoft.Owin.dll
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\Microsoft.Owin.Security.Cookies.dll
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\Microsoft.Owin.Security.dll
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\Microsoft.Owin.Security.Google.dll
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\Microsoft.Owin.Security.OAuth.dll
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\Microsoft.Web.Infrastructure.dll
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\Newtonsoft.Json.dll
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\Owin.dll
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\System.Web.Helpers.dll
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\System.Web.Mvc.dll
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\System.Web.Razor.dll
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\System.Web.WebPages.Deployment.dll
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\System.Web.WebPages.dll
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\System.Web.WebPages.Razor.dll
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\Constants.pdb
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\Microsoft.Owin.xml
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\Microsoft.Owin.Security.xml
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\Microsoft.Owin.Security.Cookies.xml
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\Microsoft.Owin.Security.Google.xml
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\Microsoft.Owin.Security.OAuth.xml
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\Newtonsoft.Json.xml
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\System.Web.Helpers.xml
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\System.Web.Mvc.xml
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\System.Web.Razor.xml
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\System.Web.WebPages.xml
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\System.Web.WebPages.Deployment.xml
+D:\temp\AuthorizationServer\AuthorizationServer\AuthorizationServer\bin\System.Web.WebPages.Razor.xml
