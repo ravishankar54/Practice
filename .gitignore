@@ -41,3 +41,11 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+/SecurityPipeline/EmbeddedAuthorizationServer/bin
+/SecurityPipeline/Client/bin/Debug
+/SecurityPipeline/Client/obj/Debug
+/SecurityPipeline/EmbeddedAuthorizationServer/obj/Debug
+/SecurityPipeline/WindowsAuthentication/bin
+/SecurityPipeline/SecurityPipeline/obj/Debug
+/SecurityPipeline/SecurityPipeline/bin
+/SecurityPipeline/WindowsAuthentication/obj/Debug
