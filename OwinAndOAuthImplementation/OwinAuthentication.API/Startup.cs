@@ -1,14 +1,9 @@
-﻿using System;
-using System.Threading.Tasks;
-using Microsoft.Owin;
-using Owin;
-using System.Web.Http;
-using Microsoft.Owin.Security.OAuth;
+﻿using Owin.OAuth.API.Migrations;
 using Owin.OAuth.API.Providers;
-using Owin.OAuth.API.Migrations;
-using System.Data.Entity;
+using System;
+using System.Web.Http;
 
-[assembly: OwinStartup(typeof(Owin.OAuth.API.Startup))]
+[assembly: Microsoft.Owin.OwinStartup(typeof(Owin.OAuth.API.Startup))]
 
 namespace Owin.OAuth.API
 {
@@ -21,15 +16,15 @@ namespace Owin.OAuth.API
             WebApiConfig.Register(config);
             app.UseCors(Microsoft.Owin.Cors.CorsOptions.AllowAll);
             app.UseWebApi(config);
-            Database.SetInitializer(new MigrateDatabaseToLatestVersion<AuthContext, Configuration>());
+            System.Data.Entity.Database.SetInitializer(new System.Data.Entity.MigrateDatabaseToLatestVersion<AuthContext, Configuration>());
         }
 
         public void ConfigureOAuth(IAppBuilder app)
         {
-            OAuthAuthorizationServerOptions OAuthServerOptions = new OAuthAuthorizationServerOptions()
+            var OAuthServerOptions = new Microsoft.Owin.Security.OAuth.OAuthAuthorizationServerOptions()
             {
                 AllowInsecureHttp = true,
-                TokenEndpointPath = new PathString("/token"),
+                TokenEndpointPath = new Microsoft.Owin.PathString("/token"),
                 AccessTokenExpireTimeSpan = TimeSpan.FromMinutes(30),
                 Provider = new SimpleAuthorizationServerProvider(),
                 RefreshTokenProvider = new SimpleRefreshTokenProvider()
@@ -37,7 +32,7 @@ namespace Owin.OAuth.API
 
             // Token Generation
             app.UseOAuthAuthorizationServer(OAuthServerOptions);
-            app.UseOAuthBearerAuthentication(new OAuthBearerAuthenticationOptions());
+            app.UseOAuthBearerAuthentication(new Microsoft.Owin.Security.OAuth.OAuthBearerAuthenticationOptions());
 
         }
     }

@@ -1,16 +1,12 @@
-﻿using Microsoft.Owin.Security.Infrastructure;
-using Owin.OAuth.API.Entities;
+﻿using Owin.OAuth.API.Entities;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Owin.OAuth.API.Providers
 {
-    public class SimpleRefreshTokenProvider : IAuthenticationTokenProvider
+    public class SimpleRefreshTokenProvider : Microsoft.Owin.Security.Infrastructure.IAuthenticationTokenProvider
     {
-        public async Task CreateAsync(AuthenticationTokenCreateContext context)
+        public async Task CreateAsync(Microsoft.Owin.Security.Infrastructure.AuthenticationTokenCreateContext context)
         {
             var clientid = context.Ticket.Properties.Dictionary["as:client_id"];
             if (string.IsNullOrWhiteSpace(clientid))
@@ -45,17 +41,17 @@ namespace Owin.OAuth.API.Providers
             }
         }
 
-        public void Create(AuthenticationTokenCreateContext context)
+        public void Create(Microsoft.Owin.Security.Infrastructure.AuthenticationTokenCreateContext context)
         {
             throw new NotImplementedException();
         }
 
-        public void Receive(AuthenticationTokenReceiveContext context)
+        public void Receive(Microsoft.Owin.Security.Infrastructure.AuthenticationTokenReceiveContext context)
         {
             throw new NotImplementedException();
         }
 
-        public async Task ReceiveAsync(AuthenticationTokenReceiveContext context)
+        public async Task ReceiveAsync(Microsoft.Owin.Security.Infrastructure.AuthenticationTokenReceiveContext context)
         {
             var allowedOrigin = context.OwinContext.Get<string>("as:clientAllowedOrigin");
             context.OwinContext.Response.Headers.Add("Access-Control-Allow-Origin", new[] { allowedOrigin });

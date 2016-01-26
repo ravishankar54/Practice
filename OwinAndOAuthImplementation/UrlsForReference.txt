@@ -1,0 +1,17 @@
+http://bitoftech.net/2014/06/01/token-based-authentication-asp-net-web-api-2-owin-asp-net-identity/ -1
+http://bitoftech.net/2014/06/09/angularjs-token-authentication-using-asp-net-web-api-2-owin-asp-net-identity/ -2
+http://bitoftech.net/2014/07/16/enable-oauth-refresh-tokens-angularjs-app-using-asp-net-web-api-2-owin/ -3
+http://bitoftech.net/2014/09/24/decouple-owin-authorization-server-resource-server-oauth-2-0-web-api/ -5
+
+4 th part is not required for me . so didnt copy.
+
+http://www.c-sharpcorner.com/UploadFile/736ca4/token-based-authentication-in-web-api-2/
+
+
+http://johnatten.com/2015/01/19/asp-net-web-api-understanding-owinkatana-authenticationauthorization-part-i-concepts/
+http://johnatten.com/2015/01/25/asp-net-web-api-understanding-owinkatana-authenticationauthorization-part-ii-models-and-persistence/
+http://johnatten.com/2015/02/15/asp-net-web-api-understanding-owinkatana-authenticationauthorization-part-iii-adding-identity/
+
+http://www.asp.net/aspnet/overview/owin-and-katana/
+http://www.asp.net/aspnet/overview/owin-and-katana/owin-oauth-20-authorization-server
+

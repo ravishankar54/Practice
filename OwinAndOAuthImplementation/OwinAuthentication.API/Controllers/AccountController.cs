@@ -1,10 +1,4 @@
-﻿using Microsoft.AspNet.Identity;
-using Owin.OAuth.API.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
+﻿using Owin.OAuth.API.Models;
 using System.Threading.Tasks;
 using System.Web.Http;
 
@@ -28,7 +22,7 @@ namespace Owin.OAuth.API.Controllers
             {
                 return BadRequest(ModelState);
             }
-            IdentityResult result = await repo.RegisterUser(usermodel);
+            Microsoft.AspNet.Identity.IdentityResult result = await repo.RegisterUser(usermodel);
             IHttpActionResult errorResult = GetErrorResult(result);
             return errorResult ?? Ok();
         }
@@ -41,7 +35,7 @@ namespace Owin.OAuth.API.Controllers
 
             base.Dispose(disposing);
         }
-        private IHttpActionResult GetErrorResult(IdentityResult result)
+        private IHttpActionResult GetErrorResult(Microsoft.AspNet.Identity.IdentityResult result)
         {
             if (result == null)
             {

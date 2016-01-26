@@ -1,6 +1,4 @@
 ﻿using Newtonsoft.Json.Serialization;
-using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http.Formatting;
 using System.Web.Http;
@@ -11,7 +9,6 @@ namespace Owin.OAuth.API
     {
         public static void Register(HttpConfiguration config)
         {
-
             // Web API routes
             config.MapHttpAttributeRoutes();
 

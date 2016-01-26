@@ -1,21 +1,18 @@
-﻿using Microsoft.AspNet.Identity.EntityFramework;
-using Microsoft.Owin.Security;
-using Microsoft.Owin.Security.OAuth;
-using Owin.OAuth.API.Entities;
+﻿using Owin.OAuth.API.Entities;
 using System.Collections.Generic;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace Owin.OAuth.API.Providers
 {
-    class SimpleAuthorizationServerProvider : OAuthAuthorizationServerProvider
+    class SimpleAuthorizationServerProvider : Microsoft.Owin.Security.OAuth.OAuthAuthorizationServerProvider
     {
-        public override async Task ValidateAuthorizeRequest(OAuthValidateAuthorizeRequestContext context)
+        public override async Task ValidateAuthorizeRequest(Microsoft.Owin.Security.OAuth.OAuthValidateAuthorizeRequestContext context)
         {
             context.Validated();
         }
 
-        public override Task ValidateClientAuthentication(OAuthValidateClientAuthenticationContext context)
+        public override Task ValidateClientAuthentication(Microsoft.Owin.Security.OAuth.OAuthValidateClientAuthenticationContext context)
         {
             string clientId = string.Empty;
             string clientSecret = string.Empty;
@@ -72,7 +69,7 @@ namespace Owin.OAuth.API.Providers
             context.Validated();
             return Task.FromResult<object>(null);
         }
-        public override async Task GrantResourceOwnerCredentials(OAuthGrantResourceOwnerCredentialsContext context)
+        public override async Task GrantResourceOwnerCredentials(Microsoft.Owin.Security.OAuth.OAuthGrantResourceOwnerCredentialsContext context)
         {
             var allowedOrigin = context.OwinContext.Get<string>("as:clientAllowedOrigin");
             if (allowedOrigin == null)
@@ -83,7 +80,7 @@ namespace Owin.OAuth.API.Providers
 
             using (AuthRepository repo = new AuthRepository())
             {
-                IdentityUser user = await repo.FindUser(context.UserName, context.Password);
+                Microsoft.AspNet.Identity.EntityFramework.IdentityUser user = await repo.FindUser(context.UserName, context.Password);
                 if (user == null)
                 {
                     context.SetError("invalid_grant", "The user name and password doesnt match the records");
@@ -95,7 +92,7 @@ namespace Owin.OAuth.API.Providers
             identity.AddClaim(new Claim("sub", context.UserName));
             identity.AddClaim(new Claim("role", "user"));
 
-            var props = new AuthenticationProperties(new Dictionary<string, string>
+            var props = new Microsoft.Owin.Security.AuthenticationProperties(new Dictionary<string, string>
             {
                 {
                     "as:client_id", (context.ClientId == null) ? string.Empty : context.ClientId
@@ -105,10 +102,10 @@ namespace Owin.OAuth.API.Providers
                 }
             });
 
-            var ticket = new AuthenticationTicket(identity, props);
+            var ticket = new Microsoft.Owin.Security.AuthenticationTicket(identity, props);
             context.Validated(ticket);
         }
-        public override Task GrantRefreshToken(OAuthGrantRefreshTokenContext context)
+        public override Task GrantRefreshToken(Microsoft.Owin.Security.OAuth.OAuthGrantRefreshTokenContext context)
         {
             var orginalClient = context.Ticket.Properties.Dictionary["as:client_id"];
             var currentClient = context.ClientId;
@@ -120,12 +117,12 @@ namespace Owin.OAuth.API.Providers
 
             var newIdentity = new ClaimsIdentity(context.Ticket.Identity);
             newIdentity.AddClaim(new Claim("newClaim", "newValue"));
-            var newTicket = new AuthenticationTicket(newIdentity, context.Ticket.Properties);
+            var newTicket = new Microsoft.Owin.Security.AuthenticationTicket(newIdentity, context.Ticket.Properties);
             context.Validated(newTicket);
 
             return Task.FromResult<object>(null);
         }
-        public override Task TokenEndpoint(OAuthTokenEndpointContext context)
+        public override Task TokenEndpoint(Microsoft.Owin.Security.OAuth.OAuthTokenEndpointContext context)
         {
             foreach (KeyValuePair<string, string> property in context.Properties.Dictionary)
             {
