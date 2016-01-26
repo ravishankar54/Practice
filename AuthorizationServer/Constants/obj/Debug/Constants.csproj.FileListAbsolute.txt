@@ -1,0 +1,4 @@
+C:\Development\Practice\AuthorizationServer\Constants\bin\Debug\Constants.dll
+C:\Development\Practice\AuthorizationServer\Constants\bin\Debug\Constants.pdb
+C:\Development\Practice\AuthorizationServer\Constants\obj\Debug\Constants.dll
+C:\Development\Practice\AuthorizationServer\Constants\obj\Debug\Constants.pdb

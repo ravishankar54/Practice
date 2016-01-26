@@ -1,0 +1,1 @@
+The Microsoft Azure WebJobs SDK samples are now located at https://github.com/azure/azure-webjobs-sdk-samples
