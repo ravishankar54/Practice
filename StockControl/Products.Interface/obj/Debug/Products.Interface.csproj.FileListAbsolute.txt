@@ -1,0 +1,13 @@
+D:\MVP\StockControl\Products.Interface\bin\Debug\Products.Interface.dll
+D:\MVP\StockControl\Products.Interface\bin\Debug\Products.Interface.pdb
+D:\MVP\StockControl\Products.Interface\bin\Debug\Microsoft.Practices.CompositeWeb.dll
+D:\MVP\StockControl\Products.Interface\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\MVP\StockControl\Products.Interface\obj\Debug\ResolveAssemblyReference.cache
+D:\MVP\StockControl\Products.Interface\obj\Debug\Products.Interface.dll
+D:\MVP\StockControl\Products.Interface\obj\Debug\Products.Interface.pdb
+C:\Development\Practice\StockControl\Products.Interface\bin\Debug\Products.Interface.dll
+C:\Development\Practice\StockControl\Products.Interface\bin\Debug\Products.Interface.pdb
+C:\Development\Practice\StockControl\Products.Interface\bin\Debug\Microsoft.Practices.CompositeWeb.dll
+C:\Development\Practice\StockControl\Products.Interface\obj\Debug\Products.Interface.csprojResolveAssemblyReference.cache
+C:\Development\Practice\StockControl\Products.Interface\obj\Debug\Products.Interface.dll
+C:\Development\Practice\StockControl\Products.Interface\obj\Debug\Products.Interface.pdb

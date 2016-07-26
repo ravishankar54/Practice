@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebSites", "WebSites", "{EE64EF54-F395-45B4-B8C3-F5FAE639E653}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "StockControl", "WebSites\StockControl\", "{DE75A285-87CD-4A81-BFAA-C08D4D7CFAC2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{3582F9B8-28D0-4BC9-A9AF-3CCE675BC48D}|Shell.dll;{D54252A5-2EE1-42D7-BFDA-0823E52EA73C}|Products.dll;{F463D4A6-302F-4F8B-B21F-DBD65D7DD137}|Products.Interface.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/StockControl"
+		Debug.AspNetCompiler.PhysicalPath = "WebSites\StockControl\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\StockControl\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/StockControl"
+		Release.AspNetCompiler.PhysicalPath = "WebSites\StockControl\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\StockControl\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "6420"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{FD8FC424-158D-4FB7-942F-8B6557C2932E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shell", "Modules\Shell\Shell.csproj", "{3582F9B8-28D0-4BC9-A9AF-3CCE675BC48D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Products", "Products\Products.csproj", "{D54252A5-2EE1-42D7-BFDA-0823E52EA73C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Products.Interface", "Products.Interface\Products.Interface.csproj", "{F463D4A6-302F-4F8B-B21F-DBD65D7DD137}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE75A285-87CD-4A81-BFAA-C08D4D7CFAC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE75A285-87CD-4A81-BFAA-C08D4D7CFAC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE75A285-87CD-4A81-BFAA-C08D4D7CFAC2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE75A285-87CD-4A81-BFAA-C08D4D7CFAC2}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{3582F9B8-28D0-4BC9-A9AF-3CCE675BC48D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3582F9B8-28D0-4BC9-A9AF-3CCE675BC48D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3582F9B8-28D0-4BC9-A9AF-3CCE675BC48D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3582F9B8-28D0-4BC9-A9AF-3CCE675BC48D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D54252A5-2EE1-42D7-BFDA-0823E52EA73C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D54252A5-2EE1-42D7-BFDA-0823E52EA73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D54252A5-2EE1-42D7-BFDA-0823E52EA73C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D54252A5-2EE1-42D7-BFDA-0823E52EA73C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F463D4A6-302F-4F8B-B21F-DBD65D7DD137}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F463D4A6-302F-4F8B-B21F-DBD65D7DD137}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F463D4A6-302F-4F8B-B21F-DBD65D7DD137}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F463D4A6-302F-4F8B-B21F-DBD65D7DD137}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE75A285-87CD-4A81-BFAA-C08D4D7CFAC2} = {EE64EF54-F395-45B4-B8C3-F5FAE639E653}
+		{3582F9B8-28D0-4BC9-A9AF-3CCE675BC48D} = {FD8FC424-158D-4FB7-942F-8B6557C2932E}
+		{D54252A5-2EE1-42D7-BFDA-0823E52EA73C} = {FD8FC424-158D-4FB7-942F-8B6557C2932E}
+		{F463D4A6-302F-4F8B-B21F-DBD65D7DD137} = {FD8FC424-158D-4FB7-942F-8B6557C2932E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		RootNamespace = StockControl
+		IsWCSFSolution = True
+	EndGlobalSection
+EndGlobal

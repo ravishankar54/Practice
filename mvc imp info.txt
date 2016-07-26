@@ -3,7 +3,7 @@ GlobalConfiguration.Configuration
 Formatters
 Json(Default)/XML/FormUrlEncoded/JQueryMvcFormUrlEncoded
 CustomFormatters
-AceptVerbs
+AceptVerbs-can specfiy multiple verbs to one method	
 Routing
 ActionParamter/Binding Parameter	
 	Primitive types-assumed to not be in msg body eg:int,string, datetime
@@ -45,4 +45,5 @@ HtppControllerHandler
 HttpResponseMessage/HttpRequestMessage
 MediaTypeFormatters (are used bind both input and output)are mapped to content types
 HttpConfiguration/GlobalConfiguration.Configuration
+
 

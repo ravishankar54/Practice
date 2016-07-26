@@ -1,0 +1,10 @@
+C:\Development\Practice\CodeFirstMappingDemo\CodeFirstMappingDemo\bin\Debug\CodeFirstMappingDemo.exe.config
+C:\Development\Practice\CodeFirstMappingDemo\CodeFirstMappingDemo\bin\Debug\CodeFirstMappingDemo.exe
+C:\Development\Practice\CodeFirstMappingDemo\CodeFirstMappingDemo\bin\Debug\CodeFirstMappingDemo.pdb
+C:\Development\Practice\CodeFirstMappingDemo\CodeFirstMappingDemo\bin\Debug\EntityFramework.dll
+C:\Development\Practice\CodeFirstMappingDemo\CodeFirstMappingDemo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Development\Practice\CodeFirstMappingDemo\CodeFirstMappingDemo\bin\Debug\EntityFramework.xml
+C:\Development\Practice\CodeFirstMappingDemo\CodeFirstMappingDemo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Development\Practice\CodeFirstMappingDemo\CodeFirstMappingDemo\obj\Debug\CodeFirstMappingDemo.csprojResolveAssemblyReference.cache
+C:\Development\Practice\CodeFirstMappingDemo\CodeFirstMappingDemo\obj\Debug\CodeFirstMappingDemo.exe
+C:\Development\Practice\CodeFirstMappingDemo\CodeFirstMappingDemo\obj\Debug\CodeFirstMappingDemo.pdb

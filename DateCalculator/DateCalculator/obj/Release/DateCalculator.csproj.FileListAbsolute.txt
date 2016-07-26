@@ -1,0 +1,13 @@
+C:\Development\Practice\DateCalculator\DateCalculator\bin\Release\DateCalculator.exe.config
+C:\Development\Practice\DateCalculator\DateCalculator\bin\Release\DateCalculator.exe
+C:\Development\Practice\DateCalculator\DateCalculator\bin\Release\DateCalculator.pdb
+C:\Development\Practice\DateCalculator\DateCalculator\obj\Release\MainWindow.g.cs
+C:\Development\Practice\DateCalculator\DateCalculator\obj\Release\App.g.cs
+C:\Development\Practice\DateCalculator\DateCalculator\obj\Release\DateCalculator_MarkupCompile.cache
+C:\Development\Practice\DateCalculator\DateCalculator\obj\Release\DateCalculator_MarkupCompile.lref
+C:\Development\Practice\DateCalculator\DateCalculator\obj\Release\MainWindow.baml
+C:\Development\Practice\DateCalculator\DateCalculator\obj\Release\DateCalculator.g.resources
+C:\Development\Practice\DateCalculator\DateCalculator\obj\Release\DateCalculator.Properties.Resources.resources
+C:\Development\Practice\DateCalculator\DateCalculator\obj\Release\DateCalculator.csproj.GenerateResource.Cache
+C:\Development\Practice\DateCalculator\DateCalculator\obj\Release\DateCalculator.exe
+C:\Development\Practice\DateCalculator\DateCalculator\obj\Release\DateCalculator.pdb
