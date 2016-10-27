@@ -1,0 +1,9 @@
+C:\Development\Practice\AyncAwaitDemo\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+C:\Development\Practice\AyncAwaitDemo\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+C:\Development\Practice\AyncAwaitDemo\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+C:\Development\Practice\AyncAwaitDemo\WindowsFormsApp\obj\Debug\WindowsFormsApp.csprojResolveAssemblyReference.cache
+C:\Development\Practice\AyncAwaitDemo\WindowsFormsApp\obj\Debug\WindowsFormsApp.AsyncAwaitForm.resources
+C:\Development\Practice\AyncAwaitDemo\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+C:\Development\Practice\AyncAwaitDemo\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.Cache
+C:\Development\Practice\AyncAwaitDemo\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+C:\Development\Practice\AyncAwaitDemo\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb

@@ -1,0 +1,7 @@
+C:\Development\Practice\OOADProblems\UnitTestProject\bin\Debug\UnitTestProject.dll
+C:\Development\Practice\OOADProblems\UnitTestProject\bin\Debug\UnitTestProject.pdb
+C:\Development\Practice\OOADProblems\UnitTestProject\bin\Debug\FirstTest.exe
+C:\Development\Practice\OOADProblems\UnitTestProject\bin\Debug\FirstTest.pdb
+C:\Development\Practice\OOADProblems\UnitTestProject\obj\Debug\UnitTestProject.csprojResolveAssemblyReference.cache
+C:\Development\Practice\OOADProblems\UnitTestProject\obj\Debug\UnitTestProject.dll
+C:\Development\Practice\OOADProblems\UnitTestProject\obj\Debug\UnitTestProject.pdb

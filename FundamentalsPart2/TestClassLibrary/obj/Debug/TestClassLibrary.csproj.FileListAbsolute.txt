@@ -1,0 +1,4 @@
+C:\Development\Practice\FundamentalsPart2\TestClassLibrary\bin\Debug\TestClassLibrary.dll
+C:\Development\Practice\FundamentalsPart2\TestClassLibrary\bin\Debug\TestClassLibrary.pdb
+C:\Development\Practice\FundamentalsPart2\TestClassLibrary\obj\Debug\TestClassLibrary.dll
+C:\Development\Practice\FundamentalsPart2\TestClassLibrary\obj\Debug\TestClassLibrary.pdb

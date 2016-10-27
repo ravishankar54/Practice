@@ -1,0 +1,22 @@
+﻿@model GloboMartServer.Product
+@{
+    Layout = null;
+}
+
+<h2>GetProductPrice</h2>
+
+<div>
+    <h4>Product</h4>
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+    </dl>
+</div>

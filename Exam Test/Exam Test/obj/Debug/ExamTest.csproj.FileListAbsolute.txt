@@ -1,5 +1,6 @@
-C:\Development\Practice\Exam Test\Exam Test\bin\Debug\Exam Test.exe.config
-C:\Development\Practice\Exam Test\Exam Test\bin\Debug\Exam Test.exe
-C:\Development\Practice\Exam Test\Exam Test\bin\Debug\Exam Test.pdb
-C:\Development\Practice\Exam Test\Exam Test\obj\Debug\Exam Test.exe
-C:\Development\Practice\Exam Test\Exam Test\obj\Debug\Exam Test.pdb
+C:\Development\Practice\Exam Test\Exam Test\bin\Debug\ExamTest.exe.config
+C:\Development\Practice\Exam Test\Exam Test\bin\Debug\ExamTest.exe
+C:\Development\Practice\Exam Test\Exam Test\bin\Debug\ExamTest.pdb
+C:\Development\Practice\Exam Test\Exam Test\obj\Debug\ExamTest.exe
+C:\Development\Practice\Exam Test\Exam Test\obj\Debug\ExamTest.pdb
+C:\Development\Practice\Exam Test\Exam Test\obj\Debug\ExamTest.csprojResolveAssemblyReference.cache

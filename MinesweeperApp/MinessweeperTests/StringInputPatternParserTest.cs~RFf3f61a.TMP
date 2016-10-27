@@ -1,0 +1,20 @@
+﻿using System.Linq;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Minesweeper;
+namespace MinessweeperTests
+{
+    [TestClass]
+    public class StringInputPatternParserTest
+    {
+        [TestMethod]
+        public void TestStringInputPatternIsValid()
+        {
+            //Given 
+            string inputPattern = "xxm,xmx,xxx";
+
+            //Then 
+            StringInputPatternParser patternparser = new StringInputPatternParser(inputPattern);
+            var fisrtElement = patternparser.ConstructMinesweeperMatrix().First();
+        }
+    }
+}

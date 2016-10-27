@@ -1,0 +1,1 @@
+C:\Development\Practice\AysncProgramming\UnreliableWPFApplication\bin\Debug\UnreliableWPFApplication.exe.config

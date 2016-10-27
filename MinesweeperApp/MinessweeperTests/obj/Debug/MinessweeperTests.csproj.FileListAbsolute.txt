@@ -1,0 +1,7 @@
+C:\Development\Practice\MinesweeperApp\MinessweeperTests\bin\Debug\MinessweeperTests.dll
+C:\Development\Practice\MinesweeperApp\MinessweeperTests\bin\Debug\MinessweeperTests.pdb
+C:\Development\Practice\MinesweeperApp\MinessweeperTests\bin\Debug\Minesweeper.exe
+C:\Development\Practice\MinesweeperApp\MinessweeperTests\bin\Debug\Minesweeper.pdb
+C:\Development\Practice\MinesweeperApp\MinessweeperTests\obj\Debug\MinessweeperTests.csprojResolveAssemblyReference.cache
+C:\Development\Practice\MinesweeperApp\MinessweeperTests\obj\Debug\MinessweeperTests.dll
+C:\Development\Practice\MinesweeperApp\MinessweeperTests\obj\Debug\MinessweeperTests.pdb

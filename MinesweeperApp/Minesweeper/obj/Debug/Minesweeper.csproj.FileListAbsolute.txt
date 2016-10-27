@@ -1,0 +1,6 @@
+C:\Development\Practice\MinesweeperApp\Minesweeper\bin\Debug\Minesweeper.exe.config
+C:\Development\Practice\MinesweeperApp\Minesweeper\bin\Debug\Minesweeper.exe
+C:\Development\Practice\MinesweeperApp\Minesweeper\bin\Debug\Minesweeper.pdb
+C:\Development\Practice\MinesweeperApp\Minesweeper\obj\Debug\Minesweeper.exe
+C:\Development\Practice\MinesweeperApp\Minesweeper\obj\Debug\Minesweeper.pdb
+C:\Development\Practice\MinesweeperApp\Minesweeper\obj\Debug\Minesweeper.csprojResolveAssemblyReference.cache

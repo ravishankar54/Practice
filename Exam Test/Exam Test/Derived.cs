@@ -7,5 +7,10 @@ namespace ExamTest
         {
             Console.WriteLine("Derived : Method");
         }
+
+        public virtual new void Method1()
+        {
+            Console.WriteLine("Dervied : Method1");
+        }
     }
 }

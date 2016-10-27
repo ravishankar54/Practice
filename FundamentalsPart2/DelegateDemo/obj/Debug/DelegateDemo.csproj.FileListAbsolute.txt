@@ -1,0 +1,6 @@
+C:\Development\Practice\FundamentalsPart2\DelegateDemo\bin\Debug\DelegateDemo.exe.config
+C:\Development\Practice\FundamentalsPart2\DelegateDemo\bin\Debug\DelegateDemo.exe
+C:\Development\Practice\FundamentalsPart2\DelegateDemo\bin\Debug\DelegateDemo.pdb
+C:\Development\Practice\FundamentalsPart2\DelegateDemo\obj\Debug\DelegateDemo.csprojResolveAssemblyReference.cache
+C:\Development\Practice\FundamentalsPart2\DelegateDemo\obj\Debug\DelegateDemo.exe
+C:\Development\Practice\FundamentalsPart2\DelegateDemo\obj\Debug\DelegateDemo.pdb

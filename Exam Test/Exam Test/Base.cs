@@ -7,5 +7,10 @@ namespace ExamTest
         {
             Console.WriteLine("Base : Method");
         }
+
+        public virtual void Method1()
+        {
+            Console.WriteLine("Base : Method1");
+        }
     }
 }

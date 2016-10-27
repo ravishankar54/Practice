@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcWebApiApplication", "MvcWebApiApplication\MvcWebApiApplication.csproj", "{3AF9FD16-9D13-433C-973E-0795179FCCEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcAndApiDemo", "MvcAndApiDemo\MvcAndApiDemo.csproj", "{48B0ADDB-EE37-4680-A440-619E4948A923}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcAndApiDemo.Tests", "MvcAndApiDemo.Tests\MvcAndApiDemo.Tests.csproj", "{216F1A8C-BC76-4846-80DB-05A9096ED3AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{3AF9FD16-9D13-433C-973E-0795179FCCEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AF9FD16-9D13-433C-973E-0795179FCCEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AF9FD16-9D13-433C-973E-0795179FCCEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48B0ADDB-EE37-4680-A440-619E4948A923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B0ADDB-EE37-4680-A440-619E4948A923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B0ADDB-EE37-4680-A440-619E4948A923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B0ADDB-EE37-4680-A440-619E4948A923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{216F1A8C-BC76-4846-80DB-05A9096ED3AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216F1A8C-BC76-4846-80DB-05A9096ED3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216F1A8C-BC76-4846-80DB-05A9096ED3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216F1A8C-BC76-4846-80DB-05A9096ED3AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

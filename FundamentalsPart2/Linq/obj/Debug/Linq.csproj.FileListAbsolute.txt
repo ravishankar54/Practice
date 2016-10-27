@@ -1,0 +1,10 @@
+C:\Development\Practice\FundamentalsPart2\Linq\bin\Debug\Linq.exe.config
+C:\Development\Practice\FundamentalsPart2\Linq\bin\Debug\Linq.exe
+C:\Development\Practice\FundamentalsPart2\Linq\bin\Debug\Linq.pdb
+C:\Development\Practice\FundamentalsPart2\Linq\obj\Debug\Linq.csprojResolveAssemblyReference.cache
+C:\Development\Practice\FundamentalsPart2\Linq\obj\Debug\Linq.exe
+C:\Development\Practice\FundamentalsPart2\Linq\obj\Debug\Linq.pdb
+C:\Development\Practice\FundamentalsPart2\Linq\bin\Debug\EntityFramework.dll
+C:\Development\Practice\FundamentalsPart2\Linq\bin\Debug\EntityFramework.SqlServer.dll
+C:\Development\Practice\FundamentalsPart2\Linq\bin\Debug\EntityFramework.xml
+C:\Development\Practice\FundamentalsPart2\Linq\bin\Debug\EntityFramework.SqlServer.xml

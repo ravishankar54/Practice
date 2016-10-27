@@ -1,0 +1,6 @@
+C:\Development\Practice\FundamentalsPart2\CompositionAndAggregation\bin\Debug\CompositionAndAggregation.exe.config
+C:\Development\Practice\FundamentalsPart2\CompositionAndAggregation\bin\Debug\CompositionAndAggregation.exe
+C:\Development\Practice\FundamentalsPart2\CompositionAndAggregation\bin\Debug\CompositionAndAggregation.pdb
+C:\Development\Practice\FundamentalsPart2\CompositionAndAggregation\obj\Debug\CompositionAndAggregation.csprojResolveAssemblyReference.cache
+C:\Development\Practice\FundamentalsPart2\CompositionAndAggregation\obj\Debug\CompositionAndAggregation.exe
+C:\Development\Practice\FundamentalsPart2\CompositionAndAggregation\obj\Debug\CompositionAndAggregation.pdb

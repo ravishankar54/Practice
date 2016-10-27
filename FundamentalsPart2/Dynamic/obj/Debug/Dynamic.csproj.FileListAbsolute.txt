@@ -1,0 +1,13 @@
+C:\Development\Practice\FundamentalsPart2\Dynamic\bin\Debug\Dynamic.exe.config
+C:\Development\Practice\FundamentalsPart2\Dynamic\bin\Debug\Dynamic.exe
+C:\Development\Practice\FundamentalsPart2\Dynamic\bin\Debug\Dynamic.pdb
+C:\Development\Practice\FundamentalsPart2\Dynamic\obj\Debug\Dynamic.exe
+C:\Development\Practice\FundamentalsPart2\Dynamic\obj\Debug\Dynamic.pdb
+C:\Development\Practice\FundamentalsPart2\Dynamic\obj\Debug\Dynamic.csprojResolveAssemblyReference.cache
+C:\Development\Practice\FundamentalsPart2\Dynamic\bin\Debug\Employees.xml
+C:\Development\Practice\FundamentalsPart2\Dynamic\bin\Debug\IronRuby.dll
+C:\Development\Practice\FundamentalsPart2\Dynamic\bin\Debug\IronRuby.Libraries.dll
+C:\Development\Practice\FundamentalsPart2\Dynamic\bin\Debug\IronRuby.Libraries.Yaml.dll
+C:\Development\Practice\FundamentalsPart2\Dynamic\bin\Debug\Microsoft.Dynamic.dll
+C:\Development\Practice\FundamentalsPart2\Dynamic\bin\Debug\Microsoft.Scripting.dll
+C:\Development\Practice\FundamentalsPart2\Dynamic\bin\Debug\Microsoft.Scripting.Metadata.dll

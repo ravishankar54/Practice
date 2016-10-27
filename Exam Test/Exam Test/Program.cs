@@ -1,87 +1,80 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
+using System.Linq.Expressions;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace ExamTest
 {
-    class Program
+    public class Program
     {
-        public static void Main(string[] args)
+        delegate void Test(int i);
+        delegate void Test1(int j);
+        static void F1(Test t) { }
+        static void F2(Test1 t) { }
+        static void Main(string[] args)
         {
-            Base b = new Base();
-            Derived d = new Derived();
-            Base b1 = new Derived();
-            b.Method();
-            d.Method();
-            b1.Method();
-            Console.ReadKey();
-        }
+            //var list = new[] {"A","B","C","D","E","F" };
+            //var half = list.Where(t => indexOf(t) < 3).ToList();
 
-        static void Main1(string[] args)
-        {
-
-            string str = "Test the Thast";
-            Console.WriteLine(str.Replace("T", "?"));
-            Console.ReadKey();
-
-            string input = "5#9#6#4#6#8#0#7#1#5#9";
-
-            if (!ValidateString(input)) return;
-
-            var arrayStr = input.Split('#');
-            var lines = ValidateCount(arrayStr.Length * 2);
-            int j = 0;
-            int sum = 0;
-            if (lines != 0)
+            var list = Enumerable.Range(1, 100).ToList();
+            list.ForEach(DoSomething(i => i));
+            using (var dc = new MyDataContext())
             {
-                for (int i = 0; i < lines; i++)
-                {
-                    var star = string.Empty;
-                    int k = i;
-                    var newarray = new int[i + 1];
-                    while (k <= i && k > -1)
-                    {
-                        newarray[k] = Convert.ToInt32(arrayStr[j]);
-                        star += arrayStr[j] + " ";
-                        k--;
-                        j++;
-                    }
-
-                    sum += newarray.Max();
-                    Console.WriteLine(star + "Largest number in the line :" + newarray.Max());
-                    Console.WriteLine("\n");
-                }
+                IQueryable<Employee> onlyMikeQuery = from p in dc.Employees.Where(GetOnlyMikes()) select p;
             }
-            Console.WriteLine("{0}", (sum == 0 ? "invalid input" : "Total sum: " + sum.ToString()));
+
+            var emp = new Employee { Name = "Ravi" };
+            var verifyIfPersonIsMike = GetVerifyingDelegate();
+            bool personIsMike = verifyIfPersonIsMike(emp);
+            //var list = new[] { "A", "B", "C", "D", "E", "F" };
+            //var half = list.Where((t, i) => i < 3).ToList();
+            //half.ForEach(i => Console.WriteLine(i));
             Console.ReadKey();
+
+            using (var dc = new MyDataContext())
+            {
+                var inovices = (from i in dc.Employees.Where(i => i.EmpId > 5)
+                                join c in dc.Customers on i.EmpId equals c.CustId
+                                select new { i.EmpId, c.Name }).ToList();
+
+            }
         }
 
-        private static int ValidateCount(int count)
+        private static Func<Employee, bool> GetVerifyingDelegate()
         {
-            int i = 0;
-            int sum = 0;
-            while (true)
-            {
-                sum = (i) * (i + 1);
-                if (sum == count)
-                {
-                    break;
-                }
-                if (sum > count)
-                {
-                    i = 0;
-                    break;
-                }
-                i++;
-            }
-            return i;
+            throw new NotImplementedException();
         }
-        private static bool ValidateString(string input)
+
+        private static Expression<Func<Employee, bool>> GetOnlyMikes()
         {
-            if (input.Contains("##"))
-            {
-                return false;
-            }
-            return true;
+            throw new NotImplementedException();
         }
+
+        private static Action<int> DoSomething(Func<object, object> p)
+        {
+            throw new NotImplementedException();
+        }
+
+        private static void DoSomething(int i)
+        {
+        }
+    }
+    public class Employee
+    {
+        public string Name { get; set; }
+        public int EmpId { get; set; }
+    }
+    public class Customer
+    {
+        public string Name { get; set; }
+        public int CustId { get; set; }
+    }
+    public class MyDataContext : DbContext
+    {
+        public DbSet<Employee> Employees { get; set; }
+        public DbSet<Customer> Customers { get; set; }
     }
 }

@@ -1,0 +1,8 @@
+C:\Development\Practice\WcfServiceTraining\WcfServiceConsoleApplication\bin\Debug\WcfServiceConsoleApplication.exe.config
+C:\Development\Practice\WcfServiceTraining\WcfServiceConsoleApplication\bin\Debug\WcfServiceConsoleApplication.exe
+C:\Development\Practice\WcfServiceTraining\WcfServiceConsoleApplication\bin\Debug\WcfServiceConsoleApplication.pdb
+C:\Development\Practice\WcfServiceTraining\WcfServiceConsoleApplication\obj\Debug\WcfServiceConsoleApplication.csprojResolveAssemblyReference.cache
+C:\Development\Practice\WcfServiceTraining\WcfServiceConsoleApplication\obj\Debug\WcfServiceConsoleApplication.exe
+C:\Development\Practice\WcfServiceTraining\WcfServiceConsoleApplication\obj\Debug\WcfServiceConsoleApplication.pdb
+C:\Development\Practice\WcfServiceTraining\WcfServiceConsoleApplication\bin\Debug\WcfServiceLibrary.dll
+C:\Development\Practice\WcfServiceTraining\WcfServiceConsoleApplication\bin\Debug\WcfServiceLibrary.pdb

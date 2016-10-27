@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<h2>Index</h2>
+<div> Test  my first MVC page</div>
+
+@if (TempData["SucessMessage"] != null)
+{
+    <div class="success-message">@TempData["SucessMessage"]</div>
+}
