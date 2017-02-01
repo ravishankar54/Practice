@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace ExamTest
 {
@@ -33,7 +25,7 @@ namespace ExamTest
         public static string Country;
         public Vehicle(int maxSpeed)
         {
-            
+
             this.MaxSpeed = maxSpeed;
             Country = "UK";
         }
@@ -47,9 +39,8 @@ namespace ExamTest
             {
                 this.MaxSpeed = 100;
                 this.Transmission = transmission;
-                Dataflow
             }
-            static Car(     )
+            static Car()
             {
                 Country = "USA";
             }

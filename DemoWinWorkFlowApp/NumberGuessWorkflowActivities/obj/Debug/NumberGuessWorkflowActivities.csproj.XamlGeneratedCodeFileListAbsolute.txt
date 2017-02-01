@@ -1,0 +1,3 @@
+obj\Debug\_NumberGuessWorkflowActivities.g.cs
+obj\Debug\Activity1.g.cs
+obj\Debug\NumberGuessWorkflowActivities_Activity1_BeforeInitializeComponentHelper.cs

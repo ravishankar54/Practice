@@ -1,0 +1,20 @@
+C:\Development\Practice\Exam Test\Exam Test\bin\Debug\ExamTest.exe.config
+C:\Development\Practice\Exam Test\Exam Test\bin\Debug\ExamTest.exe
+C:\Development\Practice\Exam Test\Exam Test\bin\Debug\ExamTest.pdb
+C:\Development\Practice\Exam Test\Exam Test\obj\Debug\ExamTest.exe
+C:\Development\Practice\Exam Test\Exam Test\obj\Debug\ExamTest.pdb
+C:\Development\Practice\Exam Test\Exam Test\obj\Debug\ExamTest.csprojResolveAssemblyReference.cache
+C:\Development\Practice\Exam Test\Exam Test\bin\Debug\EntityFramework.dll
+C:\Development\Practice\Exam Test\Exam Test\bin\Debug\EntityFramework.SqlServer.dll
+C:\Development\Practice\Exam Test\Exam Test\bin\Debug\EntityFramework.xml
+C:\Development\Practice\Exam Test\Exam Test\bin\Debug\EntityFramework.SqlServer.xml
+C:\Development\Practice\FundamentalsPart2\Exam Test\bin\Debug\ExamTest.exe.config
+C:\Development\Practice\FundamentalsPart2\Exam Test\bin\Debug\ExamTest.exe
+C:\Development\Practice\FundamentalsPart2\Exam Test\bin\Debug\ExamTest.pdb
+C:\Development\Practice\FundamentalsPart2\Exam Test\bin\Debug\EntityFramework.dll
+C:\Development\Practice\FundamentalsPart2\Exam Test\bin\Debug\EntityFramework.SqlServer.dll
+C:\Development\Practice\FundamentalsPart2\Exam Test\bin\Debug\EntityFramework.xml
+C:\Development\Practice\FundamentalsPart2\Exam Test\bin\Debug\EntityFramework.SqlServer.xml
+C:\Development\Practice\FundamentalsPart2\Exam Test\obj\Debug\ExamTest.csprojResolveAssemblyReference.cache
+C:\Development\Practice\FundamentalsPart2\Exam Test\obj\Debug\ExamTest.exe
+C:\Development\Practice\FundamentalsPart2\Exam Test\obj\Debug\ExamTest.pdb

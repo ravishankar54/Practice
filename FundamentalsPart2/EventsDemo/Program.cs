@@ -56,10 +56,11 @@ namespace EventsDemo
         }
 
         // TODO: override a finalizer only if Dispose(bool disposing) above has code to free unmanaged resources.
-        // ~Employee() {
-        //   // Do not change this code. Put cleanup code in Dispose(bool disposing) above.
-        //   Dispose(false);
-        // }
+        ~Employee()
+        {
+            // Do not change this code. Put cleanup code in Dispose(bool disposing) above.
+            Dispose(false);
+        }
 
         // This code added to correctly implement the disposable pattern.
         void IDisposable.Dispose()
@@ -74,7 +75,9 @@ namespace EventsDemo
             //Forces an immediate garbage collection of all generations.
             GC.Collect();
             var obj = new object();
-           // DynamicMethod hjj;
+            DynamicMethod hjj;
+            hjj = null;
+            var iy = hjj;
         }
         #endregion
     }

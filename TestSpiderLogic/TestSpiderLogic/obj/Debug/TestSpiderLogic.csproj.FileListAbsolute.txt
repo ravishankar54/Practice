@@ -1,0 +1,6 @@
+C:\Development\Practice\TestSpiderLogic\TestSpiderLogic\bin\Debug\TestSpiderLogic.exe.config
+C:\Development\Practice\TestSpiderLogic\TestSpiderLogic\bin\Debug\TestSpiderLogic.exe
+C:\Development\Practice\TestSpiderLogic\TestSpiderLogic\bin\Debug\TestSpiderLogic.pdb
+C:\Development\Practice\TestSpiderLogic\TestSpiderLogic\obj\Debug\TestSpiderLogic.csprojResolveAssemblyReference.cache
+C:\Development\Practice\TestSpiderLogic\TestSpiderLogic\obj\Debug\TestSpiderLogic.exe
+C:\Development\Practice\TestSpiderLogic\TestSpiderLogic\obj\Debug\TestSpiderLogic.pdb
